@@ -1,0 +1,53 @@
+<h1>
+Admin Dashboard
+</h1>
+
+
+<a href="/add">
+Add Student
+</a>
+
+
+<table border="1">
+
+<tr>
+
+<th>ID</th>
+<th>Name</th>
+<th>Email</th>
+<th>Department</th>
+<th>Marks</th>
+<th>Attendance</th>
+<th>Action</th>
+
+</tr>
+
+
+{% for s in students %}
+
+
+<tr>
+
+<td>{{s[0]}}</td>
+<td>{{s[1]}}</td>
+<td>{{s[2]}}</td>
+<td>{{s[4]}}</td>
+<td>{{s[5]}}</td>
+<td>{{s[6]}}</td>
+
+<td>
+
+<a href="/delete/{{s[0]}}">
+Delete
+</a>
+
+</td>
+
+
+</tr>
+
+
+{% endfor %}
+
+
+</table>
