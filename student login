@@ -1,0 +1,38 @@
+<h1>
+Add Student
+</h1>
+
+
+<form method="post">
+
+
+<input name="name"
+placeholder="Name">
+
+
+<input name="email"
+placeholder="Email">
+
+
+<input name="phone"
+placeholder="Phone">
+
+
+<input name="department"
+placeholder="Department">
+
+
+<input name="marks"
+placeholder="Marks">
+
+
+<input name="attendance"
+placeholder="Attendance">
+
+
+<button>
+Save
+</button>
+
+
+</form>
